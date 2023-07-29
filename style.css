@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.51);
+    background-image: linear-gradient( 140deg, #1d2629, #1c1f1f 37%, transparent 37%), linear-gradient( 226deg, #47A6DC 36%, #1B201EDB 100%, transparent 100%);
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.card{
+    width: 304px;
+    height: 506px;
+    border-radius: 19px;
+    background: radial-gradient(97.61% 55.99% at 50.15% 44.01%, rgba(22, 81, 123, 0.69) 0%, #1E1A36 100%);
+    margin: auto;
+    padding: 20px 23px 37px;
+    color: #fff;
+}
+
+.text {
+    margin: auto;
+    color: #FFF;
+    font-family: Kanit;
+}
+
+.text h1 {
+    height: 55px;
+    width: 203px;
+    font-size: 37px;
+}
+
+.text p {
+    height: 242px;
+    width: 357px;
+    font-size: 18px;
+}
+
+.icons {
+    margin-top: 38px;
+}
+
+.icons svg {
+    margin-right: 20px;
+    border-radius: 11px;
+    background: radial-gradient(50% 50.00% at 50% 50.00%, #47A6DC 0%, #1E1A36 100%);
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.card h2 {
+    font-family: Kanit;
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    width: 258px;
+    height: 41px;
+    margin: 0 auto 21px;
+    border-radius: 6px;
+    border: 0;
+    background: #DFDADA;
+}
+
+form label {
+    margin-left: 31px;
+    font-family: Jura;
+    font-size: 12px;
+}
+
+.checkbox {
+    margin-top: 15px;
+}
+
+input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+    margin: 0 0 0 31px;
+    
+}
+
+.checkbox label {
+    margin: 0;
+    font-size: 12px;
+    font-family: Jura;
+    width: 176px;
+    color:  #F5F5F5;
+}
+
+label span {
+    color: rgba(0, 0, 0, 0.62);
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 37px;
+    width: 131px;
+    border-radius: 6px;
+    background: #DFDADA;
+    border: 0;
+    cursor: pointer;
+    margin: 26px auto;
+}
